@@ -1,0 +1,26 @@
+;; facts.edn — GLEIF LEI レコードから取り込んだ法人レベルの事実。
+;; 生成物: scripts/lei-gleif-ingest.cljs（手編集しない）。
+;; 出典 https://api.gleif.org/api/v1/lei-records/0EEB8GF0W0NPCIHZX097 を 2026-08-25 に GET（HTTP 200）。応答本文の sha256 を同梱。
+;; fact/conflict は blueprint.edn の既存値と食い違った key。どちらも消していない。
+[["gleif-0eeb8gf0w0npcihzx097" "company/lei" "0EEB8GF0W0NPCIHZX097" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "fact/source-url" "https://api.gleif.org/api/v1/lei-records/0EEB8GF0W0NPCIHZX097" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "fact/retrieved-at" "2026-08-25" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "fact/response-sha256" "87cec10937b5d1c029413ff5b874faef34bbe3224719ffec2ab2669568c3c201" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "source/dataset" "cloud-itonami-lei-gleif" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/legal-name" "AECOM" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/legal-address" "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE ST, 19801, WILMINGTON, US-DE, US" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/headquarters-address" "13355 Noel Rd #400, 75240, Dallas, US-TX, US" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/registered-as" "886293" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/registration-authority" "RA000602" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/jurisdiction" "US-DE" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/category" "GENERAL" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/legal-form-elf" "XTIQ" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/entity-status" "ACTIVE" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/entity-creation-date" "1980-01-31T00:00:00Z" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/registration-status" "LAPSED" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/initial-registration-date" "2012-11-13T19:05:00Z" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/last-update-date" "2026-05-28T15:26:59Z" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/next-renewal-date" "2022-10-14T18:00:00Z" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/managing-lou" "5493001KJTIIGC8Y1R12" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "gleif/corroboration-level" "FULLY_CORROBORATED" 1 :add]
+ ["gleif-0eeb8gf0w0npcihzx097" "fact/conflict" ":company/jurisdiction: blueprint=\"United States\" gleif=\"US-DE\"" 1 :add]]
