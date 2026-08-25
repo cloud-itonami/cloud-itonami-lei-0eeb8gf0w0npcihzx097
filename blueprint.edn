@@ -1,5 +1,12 @@
-{:company/legal-name "AECOM"
- :company/lei "0EEB8GF0W0NPCIHZX097"
+{:company/gleif-note "registry facts from GLEIF (https://api.gleif.org/api/v1/lei-records/0EEB8GF0W0NPCIHZX097), retrieved 2026-08-25 by scripts/lei-gleif-ingest.cljs (GET only)"
  :company/jurisdiction "United States"
- :company/website "https://www.aecom.com"
- :company/ticker "ACM"}
+ :company/legal-address "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE ST, 19801, WILMINGTON, US-DE, US"
+ :company/legal-form-elf "XTIQ"
+ :company/legal-jurisdiction "US-DE"
+ :company/legal-name "AECOM"
+ :company/lei "0EEB8GF0W0NPCIHZX097"
+ :company/lei-status "LAPSED"
+ :company/postal-address "13355 Noel Rd #400, 75240, Dallas, US-TX, US"
+ :company/registration-number "886293"
+ :company/ticker "ACM"
+ :company/website "https://www.aecom.com"}
